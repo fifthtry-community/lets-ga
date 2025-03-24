@@ -3,8 +3,8 @@
 set -ue
 set -o pipefail
 
-./scripts/build-wasm.sh || exit 1
-./scripts/optimise-wasm.sh || exit 1
+# ./scripts/build-wasm.sh || exit 1
+# ./scripts/optimise-wasm.sh || exit 1
 
 rm .gitignore
 

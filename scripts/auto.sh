@@ -20,14 +20,6 @@ function popd2() {
 }
 
 
-function build-wasm() {
-    pushd2 "${PROJ_ROOT}" || return 1
-    sh ./scripts/build-wasm.sh || return 1
-    popd2
-}
-
-
-
 function update-ui() {
   pushd2 "${PROJ_ROOT}/lets-ga.fifthtry.site" || return 1
   $FASTN update
