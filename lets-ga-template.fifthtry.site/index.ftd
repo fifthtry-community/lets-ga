@@ -1,8 +1,17 @@
--- ds.site-page: My site
+-- lets-ga.setup:
 
--- ds.heading-large: My Site
+-- ds.site-page: Home Page
 
--- ds.heading-medium: My Updates
-link: $ftd.app-url(path=/, app=lets-ga)
+-- ds.heading-large: Home Page
+
+-- ds.copy-small:
+
+This page is sending analytics data to Google Analytics. To send page analytics
+you have to add the following code on every page of your fastn website:
+
+-- ds.code:
+lang: ftd
+
+\-- lets-ga.setup:
 
 -- end: ds.site-page

@@ -3,17 +3,8 @@
 -- fastn.package: lets-ga-template.fifthtry.site
 
 -- fastn.dependency: design-system.fifthtry.site
--- fastn.dependency: lets-auth.fifthtry.site
 -- fastn.dependency: lets-ga.fifthtry.site
 provided-via: lets-ga-template.fifthtry.site/lets-ga
 
--- fastn.auto-import: lets-ga-template.fifthtry.site/lets-ga
 -- fastn.auto-import: design-system.fifthtry.site as ds
-
--- fastn.app: Update App
-mount-point: /updates/
-package: lets-ga.fifthtry.site
-
--- fastn.app: Auth App
-mount-point: /-/auth/
-package: lets-auth.fifthtry.site
+-- fastn.auto-import: lets-ga-template.fifthtry.site/lets-ga
