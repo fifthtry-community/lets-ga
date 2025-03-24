@@ -7,4 +7,4 @@
 provided-via: lets-ga-template.fifthtry.site/lets-ga
 
 -- fastn.auto-import: design-system.fifthtry.site as ds
--- fastn.auto-import: lets-ga-template.fifthtry.site/lets-ga
+-- fastn.auto-import: lets-ga.fifthtry.site as lets-ga
