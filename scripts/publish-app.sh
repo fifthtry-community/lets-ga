@@ -14,4 +14,4 @@ echo .is-local >> .gitignore
 
 sh -c "$(curl -fsSL https://fastn.com/install.sh)"
 
-cd lets-XXX.fifthtry.site/ && fastn upload lets-XXX
+cd lets-ga.fifthtry.site/ && fastn upload lets-ga

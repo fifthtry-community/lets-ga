@@ -1,0 +1,27 @@
+-- import: lets-ga.fifthtry.site/storybook/self
+
+-- lets-ga.feed-page:
+updates-url: /storybook/self/
+items: $items
+
+-- lets-ga.feed-item list items:
+
+-- lets-ga.feed-item: $self.updates.0
+from: $rg
+
+-- lets-ga.feed-item: $self.updates.1
+from: $me
+
+-- lets-ga.feed-item: $self.updates.2
+from: $rg
+
+-- end: items
+
+-- lets-ga.contact rg: Rahul Gupta
+url: /storybook/rg/
+domain: rahulg.com
+
+
+-- lets-ga.contact me: Amit Upadhyay
+url: /storybook/self/
+domain: amitu.com
