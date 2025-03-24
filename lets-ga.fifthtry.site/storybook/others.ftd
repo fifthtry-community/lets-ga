@@ -1,6 +1,0 @@
--- import: lets-ga.fifthtry.site/storybook/self
-
--- lets-ga.self-page:
-viewer-is-owner: false
-updates-url: /storybook/others/
-updates: $self.updates
